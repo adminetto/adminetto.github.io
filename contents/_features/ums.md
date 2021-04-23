@@ -9,5 +9,5 @@ Le module de **gestion des administrateurs** d'**Adminetto**® vous permet de g�
 
 ## Les fonctionnalités
 
-- Gestion de comptes.
-- Gestion de droits par module et par fonction.
+- Gestion des compte utilisateurs.
+- Gestion des droits par module.
