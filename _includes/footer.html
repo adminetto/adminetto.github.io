@@ -1,0 +1,7 @@
+<footer>
+	<nav>
+		{% for mention in site.mentions %}
+		<a href="{{ mention.url }}">{{ mention.title }}</a>
+		{% endfor %}
+	</nav>
+</footer>

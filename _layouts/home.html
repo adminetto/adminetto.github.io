@@ -1,0 +1,24 @@
+{% include head.html %}
+	<main>
+		<section class="banner">
+			<figure>
+				<img src="/assets/images/logo.svg" alt="Logo adminetto">
+			</figure>
+			<h1 class="logo">adminetto</h1>
+			<p><em>Manage your contents easier, faster & smarter</em></p>
+		</section>
+		<section class="description">
+			{{ content }}
+		</section>
+		<section class="features">
+			<h2 id="features">Fonctionnalités</h2>
+			<ul>
+				{% for feature in site.features %}
+				<li>
+				    <a href="{{ feature.url }}">{{ feature.title }}</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</section>
+	</main>
+{% include foot.html %}
